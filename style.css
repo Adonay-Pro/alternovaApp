@@ -1,0 +1,112 @@
+.container{
+    border: 1px solid black;
+    text-align: center;
+}
+
+.container1{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.container2{
+    width: 40%;
+    height: 85vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+
+.container-product1, .container-product2, .container-product3, .container-product4{
+    border: 1px solid black;
+    width: 40%;
+    height: 40%;
+    flex: wrap;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-right: 35px;
+    margin-left: 10px;
+}   
+
+.imagenes{
+    width: 80%;
+    height: 85%;
+}
+.input-number{
+    width: 23.2px;
+    border: 1px solid black;
+    outline: none;
+    padding: 4px;
+    margin-top: 1px;
+}
+.boton-cart{
+    width: 160px;
+    border-radius: 0;
+    background-color: white;
+    border: 1px solid black;
+    padding: 4px;
+}
+.container3{
+    border: 1px solid black;
+    width: 40%;
+    flex-wrap: wrap;
+    margin-right: 40px;
+    margin-top: 15px;
+}
+
+.enunciado-cart{
+    border: 1px solid black;
+    width: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.botones-orden{
+    width: 85%;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+    margin-top: 150px;
+}
+
+.total-buttom, .create-buttom{
+    padding: 5px;
+    width: 150px;
+}
+
+
+.items-cart{
+     display: flex;
+     flex-wrap: wrap;
+     margin-top: 35px;
+
+}
+
+.product{
+    padding: 5px;
+    width: 80px;
+    margin-left: 20px;
+}
+.quantity{
+    padding: 5px;
+    width: 80px;
+    margin-left: 30px;
+}
+.price{
+    padding: 5px;
+    width: 80px; 
+    margin-left: 15px;
+
+}
+.total-price{
+    padding: 5px;
+    width: 80px;
+    margin-left: 15px;
+}
+
+
